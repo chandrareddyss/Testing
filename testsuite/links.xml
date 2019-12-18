@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="methods" name="Suite">
+  <test name="Test">
+    <parameter name="browser" value="chrome"></parameter>
+  <parameter name="url" value="http://google.com"></parameter> 
+    <classes>
+     <class name="google.frameworkpractice.Searchword">
+     </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
