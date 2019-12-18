@@ -8,7 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 public class Actions {
-	public static void scrollDown(WebElement element) {
+	public static void scrollDown(WebElement element) { 
 		JavascriptExecutor jse = (JavascriptExecutor) Data.get();
 		jse.executeScript("arguments[0].scrollIntoView()", element);
 	}	
